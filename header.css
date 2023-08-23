@@ -1,0 +1,137 @@
+.header{
+    background-color: #FFFFFF;
+    height: 65px;
+    display: flex;
+    flex-direction: row;
+    
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    z-index: 100;
+   
+}
+
+.left-section{
+    /* background-color: black; */
+    width: 160px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    /* margin-left: 20px; */
+    margin-right: 35px;
+}
+
+.logo{
+    width: 95px;
+    cursor: pointer;
+
+}
+
+.middle-section{
+    flex: 1;
+    /* background-color: bisque; */
+    max-width: 750px;
+
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 40px;
+}
+
+.search-button{
+    border: none;
+    background-color: #F0F5FF;
+    height: 33px;
+}
+
+.search-bar{
+    flex: 1;
+    height: 29px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ffffff;
+    border-radius: 5px;  
+    border-left: 0px; 
+}
+
+
+
+.search-button{
+    border-right: 0px;
+    margin-right: -9px;
+    cursor: pointer;
+}
+
+.search-bar::placeholder{
+    font-family: inter_regular, fallback-inter_regular, Arial, sans-serif;
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #F0F5FF;    
+}
+
+.right-section{
+    /* background-color: green; */
+    width: 580px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.seller-section{
+    display: flex;
+    align-items: center;
+    cursor: pointer;  
+}
+
+.seller-section img{
+    height: 24px;
+}
+.seller-section div{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+.signin-section{
+    display: flex;
+    align-items: center;
+}
+
+.signin-section img{
+    height: 24px;
+    cursor: pointer;
+}
+.signin-section div{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    padding-left: 10px;
+}
+
+.down-arrow{
+    width: 18px;
+}
+
+.cart-section{
+    display: flex;
+    align-items: center; 
+}
+
+.cart-section img{
+    height: 24px;
+    cursor: pointer;
+}
+.cart-section div{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    padding-left: 10px;
+}
+
+.menu-bar{
+    height: 24px;
+}

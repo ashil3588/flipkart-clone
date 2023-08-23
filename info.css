@@ -1,0 +1,23 @@
+.info-main{
+    background-color: #FFFFFF;
+    height: 126px;
+    margin-top: 75px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    padding-left: 135px;
+    padding-right: 115px;
+    justify-content: first baseline;
+    align-items: center;
+    /* column-gap: 2px; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #333D46;
+    text-align: center;
+}
+
+.info-main img{
+    width: 64px;
+    padding-bottom: 10px;
+    
+}
